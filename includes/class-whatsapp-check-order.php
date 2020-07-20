@@ -156,6 +156,12 @@ class Whatsapp_Check_Order {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
+		/**
+	 	* register our wporg_settings_init to the admin_init action hook
+	 	*/
+		$this->loader->add_action( 'admin_init',$plugin_admin ,'whatsapp_order_settings_init' );
+		$this->loader->add_action( 'admin_menu',$plugin_admin ,'whatsapp_order_options_page' );
+
 
 	}
 
