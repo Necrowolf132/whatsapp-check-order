@@ -1,4 +1,5 @@
 === ChecK Whatsapp Button ===
+
 Donate link: https://github.com/Necrowolf132
 Tags: comments, spam
 Requires at least: 3.0.1
@@ -10,7 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+It is a plugins for wordpress that allows you to activate a whatsapp button on the confirmation page of payments and shipments of woocomerce, 
+this he will allows send give the possibility to the client to buy by sending the invoicing of the order directly to the whatsapp of the company 
+or the owner of the page
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
