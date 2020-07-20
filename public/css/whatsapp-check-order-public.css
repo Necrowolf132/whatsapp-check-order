@@ -1,0 +1,52 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.button-whatsapp-container {
+    display: flex;
+    justify-content: flex-end;
+}
+.button-whatsapp {
+    display: flex;
+    min-width: 445px;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-whatsapp > div{ 
+    min-width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-whatsapp #place_order { 
+    max-width: 180px;
+}
+.button-whatsapp img {
+    min-width: 60px;
+}
+.button-whatsapp a {  
+    border-radius: 100%;
+    transition: all ease 0.5s;
+}
+.button-whatsapp a:hover {  
+    background-color: black;
+}
+.button-whatsapp span {
+    font-weight: 600;
+    margin-right: 10px ;
+}
+@media only screen and (max-width:768px) {
+    .button-whatsapp #place_order { 
+        margin-bottom: 0px !important; 
+    }
+}
+@media only screen and (max-width:530px) {
+    .button-whatsapp {
+        min-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button-whatsapp > div{  
+        margin-bottom: 20px;
+    }
+}
